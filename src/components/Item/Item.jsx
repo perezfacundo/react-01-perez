@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export const Item = ({id, name, img, price, stock}) => {
+const Item = ({id, name, img, price, stock}) => {
     return (
     <article className="CardItem">
         <header className="Header">
@@ -23,3 +24,5 @@ export const Item = ({id, name, img, price, stock}) => {
     </article>
   )
 }
+
+export default Item
